@@ -1,0 +1,20 @@
+.logoContainer {
+    background-color: var(--color-primary); 
+    position: relative;
+    width:67px;
+    height:36px;
+    display: flex;
+    align-items: center;
+    margin-right: 20px;
+    /* padding:10px;
+    margin-left: 20px; */
+    /* margin-right: 20px; 
+    display: flex;
+    align-items: center;
+    height: 36px; */
+  }
+  
+  /* .logoContainer {
+    height: 36px; 
+  }
+   */
