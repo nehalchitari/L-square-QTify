@@ -3,9 +3,17 @@
   height: 47px;
   background-color: var(--color-black);
   color: var(--color-primary);
-  padding: 10px 16px;
+  padding: 10px 16px 10px 16px;
   border-radius: 12px;
   border-width: 1px;
+  gap: 10px;
+  top: 13px;
+  left: 1238px;
   cursor: pointer;
-  font-family: "poppins";
+  font-family: Poppins;
+  font-weight: 600;
+  font-size: 18px;
+  line-height: 27px;
+  align-items: center;
+  letter-spacing: 0.25px;
 }
