@@ -1,14 +1,9 @@
 import React from "react";
-import styles from "./Logo.module.css";
-import {ReactComponent as Logoo} from "../../assets/qtify_logo.svg";
+//import {ReactComponent as Logoo} from "../../assets/qtify_logo.svg";
+import LogoImage from "../../assets/Logo.png";
 
-function Logo() {
-    return (
-        <div className={styles.logoContainer}>
-            <Logoo />
-        </div>
 
-    )
+
+export default function Logo(){
+    return <img src={LogoImage} alt="logo" width={67}/>
 }
-
-export default Logo;
