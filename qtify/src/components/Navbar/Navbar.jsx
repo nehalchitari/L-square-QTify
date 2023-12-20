@@ -1,12 +1,26 @@
-import React from 'react';
-import styles from "./Navbar.module.css"
+import React from "react";
+import Logo from "../Logo/Logo";
+import Search from "../Search/Search";
+import Button from "../Button/Button"
+import styles from "./Navbar.module.css";
 
-function Navbar() {
+
+function Navbar({searchData}) {
   return (
-    <div className={styles.navbar}>
+    <>
+    <nav className={styles.navbar}>
+      <a href="/">
+        <Logo />
+      </a>
+      <Search 
+      placeholder="Search a song of your choice"
+      searchData={searchData}
+      />
+      <Button>Give Feedback</Button>
       
-    </div>
+    </nav>
+    </>
   );
-};
+}
 
 export default Navbar;

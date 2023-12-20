@@ -4,7 +4,7 @@ import styles from "./Search.module.css";
 
 
 
-function Search({placeholder}){
+function Search({placeholder, searchData}){
     const onSubmit=(e)=>{
         e.preventDefault();
 
