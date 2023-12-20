@@ -13,7 +13,7 @@ function Search({placeholder, searchData}){
         <div>
         <form className={styles.wrapper} onSubmit={onSubmit}>
             <input className={styles.search} required placeholder={placeholder} />
-            <button className={styles.SearchButton} type="submit">
+            <button className={styles.searchButton} type="submit">
                 <SearchIcon />
             </button>
         </form>
